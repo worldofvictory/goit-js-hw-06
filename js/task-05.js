@@ -1,10 +1,10 @@
 const inputName = document.querySelector("#name-input");
 const nameOutput = document.querySelector("#name-output"); 
 
-nameInput.addEventListener("input", updateNameOutput); 
+inputName.addEventListener("input", updateNameOutput); 
 
 function updateNameOutput() {
-  const name = nameInput.value.trim(); 
+  const name = inputName.value.trim(); 
 
   if (name === "") {
     nameOutput.textContent = "Anonymous"; 

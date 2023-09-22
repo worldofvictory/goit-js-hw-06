@@ -34,7 +34,7 @@ createMarkup(images);*/
 const list = document.querySelector(".gallery");
 function createMarkup(arr) {
   const markup = arr.map(   ({ url, alt }) =>
-      <img src ="${url}" alt ="${alt}"></img>)
+      <img src ="${url}" alt ="${alt}"/>)
  
  
   
